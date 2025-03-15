@@ -1,0 +1,6 @@
+print("Welcome")
+total_bill =float((input("what was the total beill?")))
+tip =int(input("How much tip wold you like to give? 10, 12 or 15?"))
+num_of_people = int(input("How many people to splite the bill?"))
+total = (tip / 100 * total_bill + total_bill)
+print(f"each person should pay: {total}")
